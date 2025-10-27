@@ -2076,7 +2076,7 @@ input, select, textarea {
 				border: solid 3px rgba(255, 255, 255, 0.5);
 				color: #fff; 
 				content: 'Case Study';
-			   display: inline-block;
+			    display: inline-block;
 				font-size: 0.8em;
 				font-weight: 400;
 				left: 50%;
@@ -2604,7 +2604,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url("images/thumbs01.jpg"), url("../../images/bg.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
