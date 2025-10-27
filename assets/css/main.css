@@ -98,7 +98,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #a2a2a2;
+		color: #787878;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -2075,9 +2075,9 @@ input, select, textarea {
 				transition: opacity 0.2s ease-in-out;
 				border-radius: 0.35em;
 				border: solid 3px rgba(255, 255, 255, 0.5);
-				color: #fff;
+				color: #fff; 
 				content: 'View';
-				display: inline-block;
+			   display: inline-block;
 				font-size: 0.8em;
 				font-weight: 400;
 				left: 50%;
@@ -2450,6 +2450,7 @@ input, select, textarea {
 		border-radius: 0.35em;
 		border: solid 3px #efefef;
 		color: #787878;
+		margin-top: 1em;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
@@ -2902,7 +2903,7 @@ input, select, textarea {
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
 			-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-			color: #fff;
+			color: #000000;
 			height: 4em;
 			line-height: 4em;
 			opacity: 0;
@@ -2933,7 +2934,7 @@ input, select, textarea {
 				-ms-box-sizing: content-box;
 				box-sizing: content-box;
 				border-radius: 100%;
-				border: solid 3px rgba(255, 255, 255, 0.5);
+				border: solid 3px rgba(0, 0, 0, 0.5);
 				content: '\f00d';
 				display: block;
 				font-size: 1em;
