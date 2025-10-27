@@ -2559,6 +2559,10 @@ input, select, textarea {
 			color: #fff;
 		}
 
+		.download-logo {
+			width: 1.5em;
+		}
+
 /* Work Item */
 
 	.work-item {
