@@ -2602,7 +2602,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #1f1815;
+		background-color: #221B18;
 		background-attachment: scroll,								scroll;
 		background-image: url("images/thumbs01.jpg"), url("../../images/bg.jpg");
 		background-position: top left,							top left;
