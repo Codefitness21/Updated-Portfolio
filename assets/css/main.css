@@ -2362,7 +2362,9 @@ input, select, textarea {
 						ul.actions:not(.fixed) li .button.icon:before {
 							margin-left: -0.5em;
 						}
-
+iframe{
+	width: 342px;
+}
 		}
 
 /* Table */
