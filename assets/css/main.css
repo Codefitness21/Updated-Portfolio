@@ -2083,6 +2083,7 @@ input, select, textarea {
 				line-height: 2.25em;
 				margin: -1.25em 0 0 -3em;
 				opacity: 0;
+				cursor: pointer;
 				padding: 0 1.5em;
 				position: absolute;
 				text-align: center;
@@ -2147,6 +2148,7 @@ input, select, textarea {
 				border-radius: 100%;
 				width: 100%;
 			}
+			
 
 /* List */
 
