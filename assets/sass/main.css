@@ -1494,14 +1494,6 @@ input[type=radio] {
 input[type=checkbox] + label,
 input[type=radio] + label {
   text-decoration: none;
-  color: #a2a2a2;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 1em;
-  font-weight: 400;
-  padding-left: 2.4em;
-  padding-right: 0.75em;
-  position: relative;
 }
 input[type=checkbox] + label:before,
 input[type=radio] + label:before {
@@ -1515,6 +1507,17 @@ input[type=radio] + label:before {
   text-transform: none !important;
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
+}
+input[type=checkbox] + label,
+input[type=radio] + label {
+  color: #a2a2a2;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: 400;
+  padding-left: 2.4em;
+  padding-right: 0.75em;
+  position: relative;
 }
 input[type=checkbox] + label:before,
 input[type=radio] + label:before {
@@ -1593,8 +1596,6 @@ input[type=radio] + label:before {
 /* Icon */
 .icon {
   text-decoration: none;
-  border-bottom: none;
-  position: relative;
 }
 .icon:before {
   -moz-osx-font-smoothing: grayscale;
@@ -1607,6 +1608,10 @@ input[type=radio] + label:before {
   text-transform: none !important;
   font-family: "Font Awesome 5 Free";
   font-weight: 400;
+}
+.icon {
+  border-bottom: none;
+  position: relative;
 }
 .icon > .label {
   display: none;
@@ -2188,15 +2193,6 @@ input[type=button] .resume-button,
 }
 .poptrox-popup .loader {
   text-decoration: none;
-  animation: spin 1s linear infinite;
-  font-size: 1.5em;
-  height: 1em;
-  left: 50%;
-  line-height: 1em;
-  margin: -0.5em 0 0 -0.5em;
-  position: absolute;
-  top: 50%;
-  width: 1em;
 }
 .poptrox-popup .loader:before {
   -moz-osx-font-smoothing: grayscale;
@@ -2209,6 +2205,17 @@ input[type=button] .resume-button,
   text-transform: none !important;
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
+}
+.poptrox-popup .loader {
+  animation: spin 1s linear infinite;
+  font-size: 1.5em;
+  height: 1em;
+  left: 50%;
+  line-height: 1em;
+  margin: -0.5em 0 0 -0.5em;
+  position: absolute;
+  top: 50%;
+  width: 1em;
 }
 .poptrox-popup .loader:before {
   content: "\f1ce";
@@ -2229,15 +2236,6 @@ input[type=button] .resume-button,
 .poptrox-popup .nav-next,
 .poptrox-popup .nav-previous {
   text-decoration: none;
-  transition: opacity 0.2s ease-in-out;
-  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-  background: rgba(0, 0, 0, 0.01);
-  cursor: pointer;
-  height: 100%;
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  width: 50%;
 }
 .poptrox-popup .nav-next:before,
 .poptrox-popup .nav-previous:before {
@@ -2251,6 +2249,18 @@ input[type=button] .resume-button,
   text-transform: none !important;
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
+}
+.poptrox-popup .nav-next,
+.poptrox-popup .nav-previous {
+  transition: opacity 0.2s ease-in-out;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  background: rgba(0, 0, 0, 0.01);
+  cursor: pointer;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 50%;
 }
 .poptrox-popup .nav-next:before,
 .poptrox-popup .nav-previous:before {
@@ -2280,18 +2290,6 @@ input[type=button] .resume-button,
 }
 .poptrox-popup .closer {
   text-decoration: none;
-  transition: opacity 0.2s ease-in-out;
-  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-  color: #fff;
-  height: 4em;
-  line-height: 4em;
-  opacity: 0;
-  position: absolute;
-  right: 0;
-  text-align: center;
-  top: 0;
-  width: 4em;
-  z-index: 2;
 }
 .poptrox-popup .closer:before {
   -moz-osx-font-smoothing: grayscale;
@@ -2304,6 +2302,20 @@ input[type=button] .resume-button,
   text-transform: none !important;
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
+}
+.poptrox-popup .closer {
+  transition: opacity 0.2s ease-in-out;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  color: #fff;
+  height: 4em;
+  line-height: 4em;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 4em;
+  z-index: 2;
 }
 .poptrox-popup .closer:before {
   -ms-box-sizing: content-box;
